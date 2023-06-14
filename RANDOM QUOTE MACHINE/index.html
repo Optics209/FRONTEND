@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+        <title>Random Quote Machine</title>
+    </head>
+    <body>
+        <div class="wrapper" id="wrapper">
+            <div class="quote-box" id="quote-box">
+              <i class="fa fa-quote-left"> </i>
+              <div class="text" id="text">
+                <span class="quote-text" id="quote-text"></span> 
+              </div>
+              <i class="fa fa-quote-right"></i>
+              <div class="author" id="author">
+                " -" 
+                <span class="quote-author" id="quote-author"></span>
+              </div>
+              <div class="clickable-items" id="clickable-items">
+                <a class="clickables tweet-quote" id="tweet-quote" title="tweet quote" href="#" target="_blank" style="background-color: rgb(110, 199, 206)">
+                  <i class="fa fa-twitter"></i> #Tweet
+                </a>
+                <button class="clickables like-quote" id="like-quote"> Like <i class="fa fa-thumbs-up"></i></button>
+                <button class="clickables dislike-quote" id="dislike-quote"> Dislike <i class="fa fa-thumbs-down"></i></button>
+                <button class="clickables new-quote" id="new-quote"> New Quote <i class="fa fa-play"></i></button>
+              </div>
+            </div>
+            <div class="foot-notes" id="foot-notes">
+              Code by:<a class="foot-notes code-author" id="code-author" href="https://codepen.io/Optics209/pen/rNQOxzg"> NOKA or Prince AMANKWAH </a>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+
+
