@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+}
+
+body {
+    user-select: none;
+    background-color: aqua;
+    display: block;
+    margin: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+}
+
+div {
+    display: block;
+}
+
+h2 {
+    text-align: center;
+}
+
+.btn {
+    display: grid;
+    grid-auto-columns: 1fr 1fr 1fr;
+}
